@@ -7,7 +7,7 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework_simplejwt.exceptions import TokenError
 
-from .models import BlacklistedToken, UserProfile
+from .models import BlacklistedToken, userprofile
 from .serializer import (
     RegisterSerializer,
     LoginSerializer,
